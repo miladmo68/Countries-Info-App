@@ -6,10 +6,6 @@ const CountryItem = ({ country }) => {
   const { setSelectedCountry, favorites, setFavorites } =
     useContext(AppContext);
 
-  const handleDetail = () => {
-    setSelectedCountry(country);
-  };
-
   const handleRemove = (id) => {
     setFavorites(favorites.filter((c) => c.cca3 !== id));
   };
@@ -38,13 +34,6 @@ const CountryItem = ({ country }) => {
 
       {/* Buttons */}
       <div className="flex gap-4 mt-6">
-        <Link
-          to="/detaile"
-          onClick={handleDetail}
-          className="py-2 px-5 bg-orange-600 hover:bg-orange-700 text-white rounded-full text-sm font-semibold transition duration-300"
-        >
-          Details
-        </Link>
         <button
           onClick={() => handleRemove(country.cca3)}
           className="py-2 px-5 bg-sky-500 hover:bg-sky-600 text-white rounded-full text-sm font-semibold transition duration-300"
