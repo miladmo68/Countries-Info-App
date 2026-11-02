@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <div className=" flex flex-col items-center m-auto pb-10 bg-gray-200">
         <Navbar />
         <Routes>

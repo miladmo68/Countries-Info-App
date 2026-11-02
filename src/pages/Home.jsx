@@ -17,7 +17,7 @@ const Home = () => {
   async function fetchCountries() {
     try {
       setLoading(true);
-      const res = await fetch("https://restcountries.com/v3.1/all");
+      const res = await fetch(`${import.meta.env.BASE_URL}countries.json`);
       const data = await res.json();
       if (data && data.length > 0) {
         setLoading(false);
