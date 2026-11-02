@@ -6,7 +6,7 @@ Explore every country with search, details and favorites. Country data is bundle
 
 <a href="https://miladmo68.github.io/Countries-Info-App/"><img src="https://img.shields.io/badge/Live_Demo-Open_Site-FF6A00?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo"></a>
 <a href="https://github.com/miladmo68/Countries-Info-App"><img src="https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source code"></a>
-<a href="https://miladweb.com"><img src="https://img.shields.io/badge/Portfolio-miladweb.com-1E3A8A?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio"></a>
+<a href="https://miladweb.com"><img src="https://img.shields.io/badge/Portfolio-miladweb.com-1E3A8A?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Portfolio"></a>
 
 **🔗 Live:** [miladmo68.github.io/Countries-Info-App](https://miladmo68.github.io/Countries-Info-App/)
 
